@@ -52,3 +52,10 @@ body {
 
 
 /*------ END BANNER ------*/
+/*------ Prueba, se puede eliminar luego ------*/
+header nav li a:hover {
+    color:black;
+}
+header nav li a {
+    color:white;
+}
