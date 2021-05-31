@@ -1,0 +1,87 @@
+/*------ BANNER ------*/
+
+.banner {
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	text-align: center;
+	align-items: center;
+	background-color: #411E5F;
+	padding: 2rem;
+	justify-content: center;
+}
+
+.banner div {
+	padding: 10px;
+	margin: 10px;
+}
+
+.banner a {
+	text-decoration: none;
+	color: #A7A5FF;
+	transition: 0.2s all ease;
+}
+
+.banner a:hover {
+	text-decoration: none;
+	color: #8886fa;
+	transition: 0.2s all ease;
+}
+
+.banner div img {
+	border-radius: 10px;
+}
+
+.banner div h1 {
+	font-size: 3em;
+}
+
+
+/*------ END BANNER ------*/
+
+
+/*------ RESPONSIVE ------*/
+@media (min-width: 360px) {
+
+	/*------ BANNER ------*/
+	.banner {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.banner div img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.banner div h1 {
+		font-size: 2em;
+	}
+
+	/*------ END BANNER ------*/
+
+}
+
+@media (min-width: 871px) {
+
+	/*------ BANNER ------*/
+	.banner {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+	}
+
+	.banner div img {
+		display: flex;
+		width: 484px;
+		height: 454px;
+	}
+
+	.banner div h1 {
+		font-size: 3em;
+	}
+	/*------ END BANNER ------*/
+}
+
+/*------ END RESPONSIVE ------*/
