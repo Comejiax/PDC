@@ -24,6 +24,10 @@
 	margin: 10px;
 }
 
+.banner a {
+	text-decoration: none;
+}
+
 .banner div img {
 	border-radius: 10px;
 }
