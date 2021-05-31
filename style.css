@@ -32,17 +32,14 @@ body {
 
 .banner a {
 	text-decoration: none;
-	font-size: 1.3em;
 	color: #A7A5FF;
 	transition: 0.2s all ease;
 }
 
 .banner a:hover {
+	text-decoration: none;
+	color: #8886fa;
 	transition: 0.2s all ease;
-	display: block;
-	transform: rotate(1deg);
-	text-decoration: underline;
-	font-size: 1.4em;
 }
 
 .banner div img {
@@ -53,8 +50,5 @@ body {
 	font-size: 3em;
 }
 
-.banner div h1 span {
-	font-size: 1.2em;
-}
 
 /*------ END BANNER ------*/
