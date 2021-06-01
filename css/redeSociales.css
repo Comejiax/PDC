@@ -1,15 +1,32 @@
-
-span a {
-    color: #A7A5FF;    
+.redes a {
+    color: #A7A5FF;
     display: inline-block;
     margin: auto;
+    transition: 0.1s all ease-in-out;
 }
 
-span {
+.redes {
+    background-color: #411E5F;
+    padding: 20px;
+}
+
+.redes a:hover {
+    color: #8887d1;
+    transform: scale(1.1);
+    transition: 0.2s all ease;
+}
+
+.redes .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
     text-align: center;
+    padding: 10px;
 }
 
-
+.redes .title {
+    text-align: center;
+    font-size: 2em;
+}
 
 /*------ FOOTER ------*/
 
