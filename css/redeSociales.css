@@ -1,10 +1,10 @@
+
 div a {
-    color: black;
+    color: #A7A5FF;    
+    display: inline;
 }
 
-div a:hover {
-    color: #ffb345;
-}
+
 
 /*------ FOOTER ------*/
 
