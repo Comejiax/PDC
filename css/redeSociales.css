@@ -42,3 +42,17 @@ footer {
     bottom: 0px;
     height: 30px;
 }
+
+/*------ RESPONSIVE ------*/
+@media (min-width: 360px) {
+    .redes .icons {
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 871px) {
+    .redes .icons {
+        grid-template-columns: repeat(3, 0.5fr);
+    }
+}
