@@ -58,5 +58,8 @@ article .creators {
         grid-template-columns: repeat(2, 2fr);
     }
 
+    .trailer {
+        width: 800px;
+    }
        
 }
