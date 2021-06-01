@@ -40,3 +40,23 @@ article .creators {
 
 }
 
+
+/*------ RESPONSIVE ------*/
+@media (min-width: 360px) {
+    article .creators {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .trailer {
+        width: 200px;
+    }
+
+}
+
+@media (min-width: 871px) {
+    article .creators {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+       
+}
