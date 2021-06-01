@@ -1,7 +1,12 @@
 
-div a {
+span a {
     color: #A7A5FF;    
-    display: inline;
+    display: inline-block;
+    margin: auto;
+}
+
+span {
+    text-align: center;
 }
 
 
