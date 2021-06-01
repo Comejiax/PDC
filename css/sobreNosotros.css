@@ -1,15 +1,32 @@
-
 article div img {
     border-radius: 360px;
     width: 200px;
     height: 200px;
     display:block;
     margin:auto;
+    transition: 0.2s all ease;
+}
+
+article div img:hover {
+    transition: 0.2s all ease;
+    transform: scale(1.04);
+}
+
+
+article .creators {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 10px;
     
 }
 
 .about {
     text-align: center;
+    background-color: #411E5F;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .trailer {
@@ -19,5 +36,7 @@ article div img {
 
 .fundadores {
     text-align: center;
+    padding: 2rem;
+
 }
 
