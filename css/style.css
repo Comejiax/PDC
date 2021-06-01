@@ -24,7 +24,9 @@ header nav li a {
 
 /*------ FOOTER ------*/
 footer {
+	background-color: #3e1d5aa8;
 	text-align: center;
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.3em;
+	padding: 4px;
 }
