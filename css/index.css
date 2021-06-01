@@ -38,15 +38,16 @@
 	font-size: 3em;
 }
 
-
-
 /*------ SECTIONS TEXTS ------*/
+
 .texts {
 	text-align: center;
 	padding: 3rem;
 }
 
 .texts .section1 {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	background-color: #5c2c86;
 	align-items: center;
 	padding: 20px;
@@ -61,46 +62,90 @@
 	display: grid;
 	grid-template-columns: repeat(2, 2fr);
 	grid-template-rows: repeat(2, 1fr);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 50rem;
 }
 
-
-
 /*------ RESPONSIVE ------*/
-@media (min-width: 360px) {
 
+@media (min-width: 360px) {
 	/*------ BANNER ------*/
 	.banner {
 		grid-template-columns: repeat(1, 1fr);
 	}
-
 	.banner div img {
 		width: 200px;
 		height: 200px;
 	}
-
 	.banner div h1 {
 		font-size: 2em;
 	}
-
-
+	/*------ SECTIONS TEXTS ------*/
+	.texts {
+		text-align: center;
+		width: auto;
+		padding: 3rem;
+	}
+	.texts .section1 {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		background-color: #5c2c86;
+		align-items: center;
+		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(1, 2fr);
+	}
+	.texts .section2 {
+		background-color: #4f2772;
+		align-items: center;
+		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(1, 2fr);
+		grid-template-rows: repeat(2, 1fr);
+		border-bottom-right-radius: 10px;
+		height: 30em;
+	}
 }
 
 @media (min-width: 871px) {
-
 	/*------ BANNER ------*/
 	.banner {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
 	}
-
 	.banner div img {
 		display: flex;
 		width: 484px;
 		height: 454px;
 	}
-
 	.banner div h1 {
 		font-size: 3em;
+	}
+	/*------ SECTIONS TEXTS ------*/
+	.texts {
+		text-align: center;
+		padding: 3rem;
+	}
+	.texts .section1 {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		background-color: #5c2c86;
+		align-items: center;
+		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+	}
+	.texts .section2 {
+		background-color: #4f2772;
+		align-items: center;
+		padding: 20px;
+		display: grid;
+		grid-template-columns: repeat(2, 2fr);
+		grid-template-rows: repeat(2, 1fr);
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		height: 20rem;
 	}
 }
