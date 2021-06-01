@@ -39,7 +39,30 @@
 }
 
 
-/*------ END BANNER ------*/
+
+/*------ SECTIONS TEXTS ------*/
+.texts {
+	text-align: center;
+	padding: 3rem;
+}
+
+.texts .section1 {
+	background-color: #5c2c86;
+	align-items: center;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+}
+
+.texts .section2 {
+	background-color: #4f2772;
+	align-items: center;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
 
 
 /*------ RESPONSIVE ------*/
@@ -59,7 +82,6 @@
 		font-size: 2em;
 	}
 
-	/*------ END BANNER ------*/
 
 }
 
@@ -81,7 +103,4 @@
 	.banner div h1 {
 		font-size: 3em;
 	}
-	/*------ END BANNER ------*/
 }
-
-/*------ END RESPONSIVE ------*/
