@@ -1,3 +1,18 @@
 .soon {
     text-align: center;
 }
+
+/*------ FOOTER ------*/
+
+footer {
+    background-color: #3e1d5aa8;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    padding: 0.1px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+}
