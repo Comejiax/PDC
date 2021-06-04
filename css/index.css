@@ -1,3 +1,12 @@
+/* @keyframes loadTilte {
+	from {
+		font-size: 0px;
+	}
+	to {
+		font-size: 3em;
+	}
+} */
+
 /*------ BANNER ------*/
 
 .banner {
@@ -36,6 +45,8 @@
 
 .banner div h1 {
 	font-size: 3em;
+	/* animation-name: loadTilte;
+	animation-duration: 3s; */
 }
 
 /*------ SECTIONS TEXTS ------*/
@@ -43,6 +54,9 @@
 .texts {
 	text-align: center;
 	padding: 3rem;
+}
+.texts .title {
+	padding-bottom: 10px;
 }
 
 .texts .section1 {
@@ -82,10 +96,15 @@
 		font-size: 2em;
 	}
 	/*------ SECTIONS TEXTS ------*/
+	.image-texts {
+		width: 200px;
+	}
+
 	.texts {
 		text-align: center;
 		width: auto;
 		padding: 3rem;
+		font-size: 13px;
 	}
 	.texts .section1 {
 		border-top-left-radius: 10px;
@@ -124,10 +143,17 @@
 		font-size: 3em;
 	}
 	/*------ SECTIONS TEXTS ------*/
+
+	.image-texts {
+		width: 400px;
+	}
+
 	.texts {
 		text-align: center;
 		padding: 3rem;
 	}
+
+
 	.texts .section1 {
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;

@@ -13,17 +13,6 @@ body {
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	height: 100%;
-	animation-name: load;
-	animation-duration: 3s;
-}
-
-@keyframes load {
-	from {
-		font-size: 0px;
-	}
-	to {
-		color: white;
-	}
 }
 
 /*------ Navigation ------*/
