@@ -15,7 +15,7 @@ article div img:hover {
 
 article .creators {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3, 2fr);
     padding: 10px;
     
 }
@@ -55,7 +55,7 @@ article .creators {
 
 @media (min-width: 871px) {
     article .creators {
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(3, 2fr);
     }
 
     .trailer {
