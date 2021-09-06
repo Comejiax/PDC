@@ -40,6 +40,10 @@ article .creators {
 
 }
 
+.text {
+    width: 50%;
+    margin: auto;
+}
 
 /*------ RESPONSIVE ------*/
 @media (min-width: 360px) {
