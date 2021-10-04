@@ -26,9 +26,6 @@ class App extends React.Component<AppProps, AppState> {
           {/*---- END ROUTER ----*/}
 
         </div>
-
-
-
       </Router>
      );
   }

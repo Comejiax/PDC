@@ -1,6 +1,7 @@
 import React from "react";
-import { TextStyled } from '../components/styles/notfound.styles';
-import { LinkStyled } from '../components/styles/basics.styles';
+import ImgError from '../assets/undraw_page_not_found_su7k.svg';
+import { TextStyled, ImgStyled } from "../components/styles/notfound.styles";
+import { LinkStyled } from "../components/styles/basics.styles";
 
 interface NotFoundProps {}
 interface NotFoundState {}
@@ -10,17 +11,21 @@ class NotFound extends React.Component<NotFoundProps, NotFoundState> {
     return (
       <TextStyled>
         <div className="items">
-
-         <div className="header">
-            <h1>Not Found 404</h1> 
+          <ImgStyled src={ImgError} alt='Image error 404'></ImgStyled>
+          <div className="texts">
+            <div className="header">
+              PAGE NOT FOUND
+            </div>
+            <div className='description'>
+              La página que estás buscando no existe
+            </div>
+            <div className="link">
+              <LinkStyled to="/">Go Home</LinkStyled>
+            </div>
           </div>
-          <div className="link">
-            <LinkStyled to="/">Go Home</LinkStyled>
-          </div>
-
         </div>
       </TextStyled>
-    )
+    );
   }
 }
 

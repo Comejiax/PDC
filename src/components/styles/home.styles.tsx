@@ -70,8 +70,18 @@ export const BodyText = styled.div`
   padding: 4rem;
   margin-top: 2rem;
 
+  .body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
   @media screen and (max-width: 989px) {
     padding: 1rem;
   }
+
+
+
 `;
 
