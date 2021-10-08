@@ -27,6 +27,7 @@ class Navigation extends React.Component<NavbarProps, NavbarState> {
                 <Nav.Link className="link" href="/">Proyectos</Nav.Link>
                 <Nav.Link className="link" href="/">Redes Sociales</Nav.Link>
               </Nav>
+              
             </Navbar.Collapse>
           </Container>
         </Navbar>
