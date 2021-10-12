@@ -1,0 +1,37 @@
+/* BODY TEXT STYLES */
+.body-text {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* TEXT BODY STYLES */
+.section-text {
+  padding: 20px;
+}
+
+.section-text .header {
+  padding: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.section-text .body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+}
+
+.section-text .body .image {
+  width: 200px;
+}
+
+/* RESPONSIVE PAGE */
+@media screen and (max-width: 1035px) {
+  .section-text .body {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+}

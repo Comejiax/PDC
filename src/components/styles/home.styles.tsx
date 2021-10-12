@@ -2,18 +2,25 @@ import styled from "styled-components";
 
 /**** PROPS ****/
 interface Props {
-  bg: string
+  bg: string;
 }
 
 /**
- * 
+ *
  * BANNER COMPONENTS
- * 
+ *
+ *
+ */
+
+/**
+ *
+ * BANNER COMPONENTS
+ *
  */
 export const Banner = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background: #411E5F;
+  background: #411e5f;
   padding: 2.7rem;
   align-items: center;
   text-align: center;
@@ -40,48 +47,11 @@ export const ImgBanner = styled.img`
   }
 `;
 
-
-/**
- * 
+/*
+ *
  * BODY TEXT CONTENT
- * 
+ *
  */
-
 export const TextBody = styled.div`
   background: ${(props: Props) => props.bg || "red"};
-  padding: 30px;  
-
-  .header {
-    font-size: 2.7rem;
-    text-align: center;
-  }
-
-  @media screen and (max-width: 989px) {
-    padding: 30px;  
-
-    .header {
-      font-size: 1.6rem;
-    }
-  }
-  
-  `;
-
-export const BodyText = styled.div`
-  padding: 4rem;
-  margin-top: 2rem;
-
-  .body {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-  }
-
-  @media screen and (max-width: 989px) {
-    padding: 1rem;
-  }
-
-
-
 `;
-
