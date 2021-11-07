@@ -17,13 +17,13 @@ body {
 
 /*------ Navigation ------*/
 
-header {
+nav {
 	display: grid;
 	grid-template-columns: repeat(2, 500px);
 	align-items: center;
 }
 
-header nav ul li a {
+nav ul li a {
 	color: white;
 	display: block;
 	text-align: center;
@@ -31,28 +31,22 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
 	color: rgb(226, 226, 226);
 }
 
-header nav ul li {
+nav ul li {
 	float: left;
 }
 
-header nav ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
-header img {
-	width: 80px;
-	height: 80px;
-	image-resolution: 50dpi;
-}
-
-header .menu-bar {
+nav .menu-bar {
 	display: none;
 }
 
