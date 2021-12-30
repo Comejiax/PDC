@@ -9,12 +9,14 @@
 }
 
 .cards-proyects img {
-  border-radius: 5px;
-  filter: blur(1.5px);
+  border-radius: 3px;
+  filter: blur(1.3px);
+  transition: 0.2s all ease-in;
 }
 
 .cards-proyects img:hover {
-
+  transform: scale(1.05);
+  transition: 0.2s all ease-in;
   filter: blur(0px);
 }
 
