@@ -2,6 +2,22 @@
     text-align: center;
 }
 
+.cards-proyects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem;
+}
+
+.cards-proyects img {
+  border-radius: 5px;
+  filter: blur(1.5px);
+}
+
+.cards-proyects img:hover {
+
+  filter: blur(0px);
+}
+
 /*------ FOOTER ------*/
 
 footer {

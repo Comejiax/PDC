@@ -1,54 +1,53 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: #642f92;
-	color: white;
+  background-color: #642f92;
+  color: white;
 }
 
 /*------ BANNER ------*/
 
 .banner {
-	color: white;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 10px;
-	grid-auto-rows: minmax(100px, auto);
-	text-align: center;
-	align-items: center;
-	background-color: #411E5F;
-	padding: 2rem;
-	justify-content: center;
-	font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  align-items: center;
+  background-color: #411e5f;
+  padding: 2rem;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .banner div {
-	padding: 10px;
-	margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .banner a {
-	text-decoration: none;
-	color: #A7A5FF;
-	transition: 0.2s all ease;
+  text-decoration: none;
+  color: #a7a5ff;
+  transition: 0.2s all ease;
 }
 
 .banner a:hover {
-	text-decoration: none;
-	color: #8886fa;
-	transition: 0.2s all ease;
+  text-decoration: none;
+  color: #8886fa;
+  transition: 0.2s all ease;
 }
 
 .banner div img {
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 .banner div h1 {
-	font-size: 3em;
+  font-size: 3em;
 }
-
 
 /*------ END BANNER ------*/
